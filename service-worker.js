@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/nil1143/tomnil/precache-manifest.4c60429051961793a5dbc7348c93b2c5.js"
+  "/tomnil/precache-manifest.cbafcd975c535ef198c56325c4003581.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/nil1143/tomnil/index.html", {
+workbox.routing.registerNavigationRoute("/tomnil/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
